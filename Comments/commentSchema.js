@@ -10,7 +10,7 @@ const Words = new mongoose.Schema({
 		required: true
 	},
 	createdOn: {
-		type: Date.toString(),
+		type: toString(Date),
 		default: Date.now
 	}
 });
