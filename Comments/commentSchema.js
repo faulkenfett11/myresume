@@ -8,6 +8,10 @@ const Words = new mongoose.Schema({
 	content: {
 		type: String,
 		required: true
+	},
+	createdOn: {
+		type: Date,
+		default: Date.now
 	}
 });
 
