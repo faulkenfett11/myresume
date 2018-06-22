@@ -15,6 +15,7 @@ const Words = new mongoose.Schema({
 	},
 	number: {
 		type: Number,
+		required: true
 	}
 });
 
