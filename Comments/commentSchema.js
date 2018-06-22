@@ -13,10 +13,6 @@ const Words = new mongoose.Schema({
 		type: Date,
 		default: Date.now
 	},
-	number: {
-		type: Number,
-		required: true
-	}
 });
 
 module.exports = mongoose.model('Words', Words)
